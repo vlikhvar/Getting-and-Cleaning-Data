@@ -92,35 +92,35 @@ The continuous variables:
 The data used to create the tidy dataset
 ----------------------------------------
 
-The data set is a combination of two sets of measures variables: 
+The **bodyMovement** dataset is the combination of two sets of measured variables: 
 
-- training (70% of data), and 
-- test (30% of data).
+- training dataset (70% of data), and 
+- test dataset (30% of data).
 
-The training set were:
+The training sets:
 
-- `train/subject_train.txt`: Each row identifies the subject who performed the activity for each window sample. This is an identifier of the subject who carried out the experiment. Its range is from 1 to 30.
-- `train/X_train.txt`: Training set.
-- `train/y_train.txt`: Training labels.
+- `UCI HAR Dataset/train/subject_train.txt`: Each row identifies the subject who performed the activity for each window sample. This is an identifier of the subject who carried out the experiment. Its range is from 1 to 30.
+- `UCI HAR Dataset/train/X_train.txt`: Training set.
+- `UCI HAR Dataset/train/y_train.txt`: Training labels.
 
-The test sets were:
+The test sets:
   
-- `test/subject_test.txt`: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-- `test/X_test.txt`: Test set.
-- `test/y_test.txt`: Test labels.
+- `UCI HAR Dataset/test/subject_test.txt`: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+- `UCI HAR Dataset/test/X_test.txt`: Test set.
+- `UCI HAR Dataset/test/y_test.txt`: Test labels.
 
 The measured variable names were taken from:
   
-- `features.txt`: List of all features with time and frequency domain variables (1-561) that are normalized and bounded within [-1,1]. Each feature vector is a row on the text file.
+- `UCI HAR Dataset/features.txt`: List of all features with time and frequency domain variables (1-561) that are normalized and bounded within [-1,1]. Each feature vector is a row on the text file.
 
 The activity labels were taken from:
   
-- `activity_labels.txt`: Links the class labels with their activity name.
+- `UCI HAR Dataset/activity_labels.txt`: Links the class labels with their activity name.
 
 Files used as reference:
   
-- `README.txt`
-- `features_info.txt`: The information about the variables used on the feature vector.
+- `UCI HAR Dataset/README.txt`
+- `UCI HAR Dataset/features_info.txt`: The information about the variables used on the feature vector.
 
 Data transformations (steps performed in the analysis)
 ----------------------------------------
