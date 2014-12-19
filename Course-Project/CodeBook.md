@@ -125,4 +125,56 @@ Files used as reference:
 Data transformations (steps performed in the analysis)
 ----------------------------------------
 
+Step 1: Preparing data for manipulation.
+
+- Load training and test data into R using read.table()
+- Wrap the X,Y-train and X,Y-test data frames with tbl_df() (package dplyr()) for easy data handling and printing
+
+Step2: Merging the training and the test sets to create one data set.
+
+- Combine training sets into one
+- Combine test sets into one
+- Reshaping training set
+- Reshaping test set
+- Combine training and test sets together 
+
+Step3. Extracting only the measurements on the mean and standard deviation for each measurement. 
+
+The references for mean() and std() are taken from the features_info.txt. 
+
+- Check for duplicates
+- Add "X" in front of feature_id to make it similar to the feature_id variable in the combined DF
+- Subset the measurements from the combined DF dataset that contain mean() and std() based on the features ID
+
+Step 4. Use descriptive activity names to name the activities in the data set
+
+- Load activity labels
+- Make the labels descriptive and edit the elements of the activity vector:
+Editing (or, fixing) the character names is explained in the week 4 lecture 1 (last slide of "editingTextVariables"). 
+- Make it lower case
+- Make camel case
+- Join the activity labels with the data
+
+Step 5. Appropriately labeling the data set with descriptive variable names. 
+
+The "descrptive" implies that we have to use words that reflect meanings instead of simbols or characters that do not, for example, instead of "t" and "f" use "time" and "freq" (frequency). 
+
+- First, check if evything is OK with the feature names. The idea is to split the feature column into 4 coumns separating the comon parts and then run table() to check how many unique names are in each column. 
+- Uniform the format of the data by adding NAs (because XYZ is missing in some names)
+- Split the vector into four columns, at the same time removing simbols
+According to the feature_info.txt document the feature names have only 10 unique parts: 
+combining time (t) and frequency (f) variables we get the following name parts that should match our column 2: 
+*BodyAcc, GravityAcc, BodyAccJerk, BodyGyroJerk, BodyAccMag, GravityAccMag, BodyAccJerkMag, BodyGyroMag, BodyGyroJerkMag, BodyGyro*. 
+We have 13 because there are names with duplicates, e.g. "BodyBody".
+- Substitute "BodyBody" with "Body"
+- Check now for duplicates  
+- Edit the variable names by removing "NAs", "()", "-", replacing "mean" with "Mean", "std" with "Std", "t" with "time" and "f" with "freq".
+- Finaly, join the descriptive variable names with the DF_sub data
+
+Step 6. Creating a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+- Summarise data by subject, activity level, and measured variable using ddply() 
+- Spread variables to make tidy set using sprea()
+- Save the data in a text format
+
 
