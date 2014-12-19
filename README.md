@@ -13,7 +13,8 @@ The list of 66 variables contain:
 - Jerk refers to the first order differentiation of acceleration signal; 
 - Mean and Std are the estimated mean() and std() of the signals
 
-    The full variable list is as following:
+The full variable list is as following:
+    
     1   freqBodyAccJerkMagMean      Average magnitude of frequency domain body acceleration Jerk signal
     2    freqBodyAccJerkMagStd      Standard deviation of magnitude of frequency domain body acceleration Jerk signal
     3     freqBodyAccJerkMeanX      Average frequency domain body acceleration Jerk signal (X axis)
@@ -81,9 +82,9 @@ The list of 66 variables contain:
     65      timeGravityAccStdY      Standard deviation of time domain gravity acceleration signal (Y axis)
     66      timeGravityAccStdZ      Standard deviation of time domain gravity acceleration signal (Z axis)
 
-================================
 The data used to create the tidy dataset
-================================
+----------------------------------------
+
 The data set is a combination of two sets of measures variables: 
 
 - training (70% of data), and 
@@ -114,7 +115,5 @@ Files used as reference:
 - `README.txt`
 - `features_info.txt`: The information about the variables used on the feature vector.
 
-================================
 Data transformations (steps performed in the analysis)
-================================
-
+----------------------------------------
