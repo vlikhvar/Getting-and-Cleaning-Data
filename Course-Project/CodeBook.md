@@ -1,29 +1,16 @@
 Codebook of bodyMovement.csv dataset
 ================================
 
-The dataset contain 180 rows (30 subjects * 6 activities) and 68 columns (2 categorical and 66 continuous variables). 
+The dataset contains 180 rows (30 subjects * 6 activities) and 68 columns (2 categorical and 66 continuous variables). 
 
-The list of variables contain:
-
-2 categorical: 
+The categorical variables:
 
     1 subject: Subject ID (1-30);
     2 activity: Activity name ("laying", "sitting", "standing", "walking", "walkingDownstairs", "walkingUpstairs").
 
-66 measured variables:
+The continuous variables:
 
-- 1-26: frequency domain measurements;
-- 27-66: time domain measurements;
-- 1-16 and 27-42: body motion acceleration signals measured by accelerometer embedded into a smartphone;
-- 17-26 and 43-58: angular velocity signals measured by gyroscope embedded into a smartphone;
-- 59-66: gravitational signals measured by accelerometer embedded into a smartphone;
-- *X*, *Y* and *Z* are dimensions of the signals;
-- *Mag* refers to the magnitude of the signals calculated using the Euclidean norm;
-- *Jerk* refers to the first order differentiation of acceleration signal; 
-- *Mean* and *Std* are the estimated mean() and std() of the signals
 
-The full variable list is as following:
-    
     1   freqBodyAccJerkMagMean      Average magnitude of frequency domain body acceleration Jerk signal
     2    freqBodyAccJerkMagStd      Standard deviation of magnitude of frequency domain body acceleration Jerk signal
     3     freqBodyAccJerkMeanX      Average frequency domain body acceleration Jerk signal (X axis)
@@ -90,6 +77,17 @@ The full variable list is as following:
     64      timeGravityAccStdX      Standard deviation of time domain gravity acceleration signal (X axis)
     65      timeGravityAccStdY      Standard deviation of time domain gravity acceleration signal (Y axis)
     66      timeGravityAccStdZ      Standard deviation of time domain gravity acceleration signal (Z axis)
+
+- 1-26: frequency domain measurements;
+- 27-66: time domain measurements;
+- 1-16 and 27-42: body motion acceleration signals measured by accelerometer embedded into a smartphone;
+- 17-26 and 43-58: angular velocity signals measured by gyroscope embedded into a smartphone;
+- 59-66: gravitational signals measured by accelerometer embedded into a smartphone;
+- *X*, *Y* and *Z* are dimensions of the signals;
+- *Mag* refers to the magnitude of the signals calculated using the Euclidean norm;
+- *Jerk* refers to the first order differentiation of acceleration signal; 
+- *Mean* and *Std* are the estimated mean() and std() of the signals
+
 
 The data used to create the tidy dataset
 ----------------------------------------
