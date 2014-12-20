@@ -1,4 +1,4 @@
-Codebook of `bodyMovement.txt` dataset
+Codebook of `tidySamsungDF.txt` dataset
 ================================
 
 The dataset contains 180 rows (30 subjects * 6 activities) and 68 columns (2 categorical and 66 continuous variables). 
@@ -92,7 +92,7 @@ The continuous variables:
 The data used to create the tidy dataset
 ----------------------------------------
 
-To create the tidy **bodyMovement.csv** data set I used the row data obtained from the Human Activity Recognition Using Smartphones Dataset (Version 1.0): 
+To create the tidy **tidySamsungDF.txt** data set I used the row data obtained from the Human Activity Recognition Using Smartphones Dataset (Version 1.0): 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -104,7 +104,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
         www.smartlab.ws
 
 
-The **bodyMovement.csv** data set is the combination of two sets of row data: 
+The **tidySamsungDF.txt** data set is the combination of two sets of row data: 
 
 - training data set (70% of data), and 
 - test data set (30% of data).
@@ -195,6 +195,6 @@ Comparing my unique feature names with the names descibed in the `feature_info.t
 
 - Summarise data (averaging) by `subject_id`, `activity` and `feature` using `ddply()`. 
 - Spread the averaged variables to make the required tidy data set using `spread()` function.
-- Save the data in a `.txt` format using `write.table()` with `row.name=FALSE`. 
+- Save the data in a `.txt` format using `write.table()` with `row.name=FALSE`. The names of the saved file is `tidySamsungDF.txt`.
 
 
