@@ -1,82 +1,82 @@
-Codebook of `bodyMovement.csv` dataset
+Codebook of `bodyMovement.txt` dataset
 ================================
 
 The dataset contains 180 rows (30 subjects * 6 activities) and 68 columns (2 categorical and 66 continuous variables). 
 
 The categorical variables:
 
-    1 subject: Subject ID (1-30);
-    2 activity: Activity name ("laying", "sitting", "standing", "walking", "walkingDownstairs", "walkingUpstairs").
+    1 subject  :  Subject IDs (1-30);
+    2 activity :  Activity names ("laying", "sitting", "standing", "walking", "walkingDownstairs", "walkingUpstairs").
 
 The continuous variables:
 
 
-    1   freqBodyAccJerkMagMean      Average magnitude of frequency domain body acceleration Jerk signal
-    2    freqBodyAccJerkMagStd      Standard deviation of magnitude of frequency domain body acceleration Jerk signal
-    3     freqBodyAccJerkMeanX      Average frequency domain body acceleration Jerk signal (X axis)
-    4     freqBodyAccJerkMeanY      Average frequency domain body acceleration Jerk signal (Y axis)
-    5     freqBodyAccJerkMeanZ      Average frequency domain body acceleration Jerk signal (Z axis)
-    6      freqBodyAccJerkStdX      Standard deviation of frequency domain body acceleration Jerk signal (X axis)
-    7      freqBodyAccJerkStdY      Standard deviation of frequency domain body acceleration Jerk signal (Y axis)
-    8      freqBodyAccJerkStdZ      Standard deviation of frequency domain body acceleration Jerk signal (Z axis)
-    9       freqBodyAccMagMean      Average magnitude of frequency domain body acceleration signal
-    10       freqBodyAccMagStd      Standard deviation of magnitude of frequency domain body acceleration signal
-    11        freqBodyAccMeanX      Average frequency domain body acceleration signal (X axis)
-    12        freqBodyAccMeanY      Average frequency domain body acceleration signal (Y axis)
-    13        freqBodyAccMeanZ      Average frequency domain body acceleration signal (Z axis)
-    14         freqBodyAccStdX      Standard deviation of frequency domain body acceleration signal (X axis)
-    15         freqBodyAccStdY      Standard deviation of frequency domain body acceleration signal (Y axis)
-    16         freqBodyAccStdZ      Standard deviation of frequency domain body acceleration signal (Z axis)
-    17 freqBodyGyroJerkMagMean      Average magnitude of frequency domain angular velocity Jerk signal
-    18  freqBodyGyroJerkMagStd      Standard deviation of magnitude of frequency domain angular velocity Jerk signal
-    19     freqBodyGyroMagMean      Average magnitude of frequency domain angular velocity signal
-    20      freqBodyGyroMagStd      Standard deviation of magnitude of frequency domain angular velocity signal
-    21       freqBodyGyroMeanX      Average frequency domain angular velocity signal (X axis)
-    22       freqBodyGyroMeanY      Average frequency domain angular velocity signal (Y axis)
-    23       freqBodyGyroMeanZ      Average frequency domain angular velocity signal (Z axis)
-    24        freqBodyGyroStdX      Standard deviation of frequency domain angular velocity signal (X axis)
-    25        freqBodyGyroStdY      Standard deviation of frequency domain angular velocity signal (Y axis)
-    26        freqBodyGyroStdZ      Standard deviation of frequency domain angular velocity signal (Z axis)
-    27  timeBodyAccJerkMagMean      Average magnitude of time domain body acceleration  Jerk signal
-    28   timeBodyAccJerkMagStd      Standard deviation of magnitude of time domain body acceleration Jerk signal
-    29    timeBodyAccJerkMeanX      Average time domain body acceleration Jerk signal (X axis)
-    30    timeBodyAccJerkMeanY      Average time domain body acceleration Jerk signal (Y axis)
-    31    timeBodyAccJerkMeanZ      Average time domain body acceleration Jerk signal (Z axis)
-    32     timeBodyAccJerkStdX      Standard deviation of time domain body acceleration Jerk signal (X axis) 
-    33     timeBodyAccJerkStdY      Standard deviation of time domain body acceleration Jerk signal (Y axis)
-    34     timeBodyAccJerkStdZ      Standard deviation of time domain body acceleration Jerk signal (Z axis)
-    35      timeBodyAccMagMean      Average magnitude of time domain body acceleration signal
-    36       timeBodyAccMagStd      Standard deviation of magnitude of time domain body acceleration signal
-    37        timeBodyAccMeanX      Average time domain body acceleration signal (X axis)
-    38        timeBodyAccMeanY      Average time domain body acceleration signal (Y axis)
-    39        timeBodyAccMeanZ      Average time domain body acceleration signal (Z axis)
-    40         timeBodyAccStdX      Standard deviation of time domain body acceleration signal (X axis)
-    41         timeBodyAccStdY      Standard deviation of time domain body acceleration signal (Y axis)
-    42         timeBodyAccStdZ      Standard deviation of time domain body acceleration signal (Z axis)
-    43 timeBodyGyroJerkMagMean      Average magnitude of time domain angular velocity Jerk signal
-    44  timeBodyGyroJerkMagStd      Standard deviation of magnitude of time domain angular velocity Jerk signal
-    45   timeBodyGyroJerkMeanX      Average time domain angular velocity Jerk signal (X axis)
-    46   timeBodyGyroJerkMeanY      Average time domain angular velocity Jerk signal (Y axis)
-    47   timeBodyGyroJerkMeanZ      Average time domain angular velocity Jerk signal (Z axis)
-    48    timeBodyGyroJerkStdX      Standard deviation of time domain angular velocity Jerk signal (X axis)
-    49    timeBodyGyroJerkStdY      Standard deviation of time domain angular velocity Jerk signal (Y axis)
-    50    timeBodyGyroJerkStdZ      Standard deviation of time domain angular velocity Jerk signal (Z axis)
-    51     timeBodyGyroMagMean      Average magnitude of time domain angular velocity signal
-    52      timeBodyGyroMagStd      Standard deviation of magnitude of time domain angular velocity signal
-    53       timeBodyGyroMeanX      Average time domain  angular velocity signal (X axis)
-    54       timeBodyGyroMeanY      Average time domain  angular velocity signal (Y axis)
-    55       timeBodyGyroMeanZ      Average time domain  angular velocity signal (Z axis)
-    56        timeBodyGyroStdX      Standard deviation of time domain  angular velocity signal (X axis)
-    57        timeBodyGyroStdY      Standard deviation of time domain  angular velocity signal (Y axis)
-    58        timeBodyGyroStdZ      Standard deviation of time domain  angular velocity signal (Z axis)
-    59   timeGravityAccMagMean      Average magnitude of time domain gravity acceleration signal
-    60    timeGravityAccMagStd      Standard deviation of magnitude of time domain gravity acceleration signal
-    61     timeGravityAccMeanX      Average time domain gravity acceleration signal (X axis)
-    62     timeGravityAccMeanY      Average time domain gravity acceleration signal (Y axis)
-    63     timeGravityAccMeanZ      Average time domain gravity acceleration signal (Z axis)
-    64      timeGravityAccStdX      Standard deviation of time domain gravity acceleration signal (X axis)
-    65      timeGravityAccStdY      Standard deviation of time domain gravity acceleration signal (Y axis)
-    66      timeGravityAccStdZ      Standard deviation of time domain gravity acceleration signal (Z axis)
+    1   freqBodyAccJerkMagMean  :   Average magnitude of frequency domain body acceleration Jerk signal
+    2    freqBodyAccJerkMagStd  :   Standard deviation of magnitude of frequency domain body acceleration Jerk signal
+    3     freqBodyAccJerkMeanX  :   Average frequency domain body acceleration Jerk signal (X axis)
+    4     freqBodyAccJerkMeanY  :   Average frequency domain body acceleration Jerk signal (Y axis)
+    5     freqBodyAccJerkMeanZ  :   Average frequency domain body acceleration Jerk signal (Z axis)
+    6      freqBodyAccJerkStdX  :   Standard deviation of frequency domain body acceleration Jerk signal (X axis)
+    7      freqBodyAccJerkStdY  :   Standard deviation of frequency domain body acceleration Jerk signal (Y axis)
+    8      freqBodyAccJerkStdZ  :   Standard deviation of frequency domain body acceleration Jerk signal (Z axis)
+    9       freqBodyAccMagMean  :   Average magnitude of frequency domain body acceleration signal
+    10       freqBodyAccMagStd  :   Standard deviation of magnitude of frequency domain body acceleration signal
+    11        freqBodyAccMeanX  :   Average frequency domain body acceleration signal (X axis)
+    12        freqBodyAccMeanY  :   Average frequency domain body acceleration signal (Y axis)
+    13        freqBodyAccMeanZ  :   Average frequency domain body acceleration signal (Z axis)
+    14         freqBodyAccStdX  :   Standard deviation of frequency domain body acceleration signal (X axis)
+    15         freqBodyAccStdY  :   Standard deviation of frequency domain body acceleration signal (Y axis)
+    16         freqBodyAccStdZ  :   Standard deviation of frequency domain body acceleration signal (Z axis)
+    17 freqBodyGyroJerkMagMean  :   Average magnitude of frequency domain angular velocity Jerk signal
+    18  freqBodyGyroJerkMagStd  :   Standard deviation of magnitude of frequency domain angular velocity Jerk signal
+    19     freqBodyGyroMagMean  :   Average magnitude of frequency domain angular velocity signal
+    20      freqBodyGyroMagStd  :   Standard deviation of magnitude of frequency domain angular velocity signal
+    21       freqBodyGyroMeanX  :   Average frequency domain angular velocity signal (X axis)
+    22       freqBodyGyroMeanY  :   Average frequency domain angular velocity signal (Y axis)
+    23       freqBodyGyroMeanZ  :   Average frequency domain angular velocity signal (Z axis)
+    24        freqBodyGyroStdX  :   Standard deviation of frequency domain angular velocity signal (X axis)
+    25        freqBodyGyroStdY  :   Standard deviation of frequency domain angular velocity signal (Y axis)
+    26        freqBodyGyroStdZ  :   Standard deviation of frequency domain angular velocity signal (Z axis)
+    27  timeBodyAccJerkMagMean  :   Average magnitude of time domain body acceleration  Jerk signal
+    28   timeBodyAccJerkMagStd  :   Standard deviation of magnitude of time domain body acceleration Jerk signal
+    29    timeBodyAccJerkMeanX  :   Average time domain body acceleration Jerk signal (X axis)
+    30    timeBodyAccJerkMeanY  :   Average time domain body acceleration Jerk signal (Y axis)
+    31    timeBodyAccJerkMeanZ  :   Average time domain body acceleration Jerk signal (Z axis)
+    32     timeBodyAccJerkStdX  :   Standard deviation of time domain body acceleration Jerk signal (X axis) 
+    33     timeBodyAccJerkStdY  :   Standard deviation of time domain body acceleration Jerk signal (Y axis)
+    34     timeBodyAccJerkStdZ  :   Standard deviation of time domain body acceleration Jerk signal (Z axis)
+    35      timeBodyAccMagMean  :   Average magnitude of time domain body acceleration signal
+    36       timeBodyAccMagStd  :   Standard deviation of magnitude of time domain body acceleration signal
+    37        timeBodyAccMeanX  :   Average time domain body acceleration signal (X axis)
+    38        timeBodyAccMeanY  :   Average time domain body acceleration signal (Y axis)
+    39        timeBodyAccMeanZ  :   Average time domain body acceleration signal (Z axis)
+    40         timeBodyAccStdX  :   Standard deviation of time domain body acceleration signal (X axis)
+    41         timeBodyAccStdY  :   Standard deviation of time domain body acceleration signal (Y axis)
+    42         timeBodyAccStdZ  :   Standard deviation of time domain body acceleration signal (Z axis)
+    43 timeBodyGyroJerkMagMean  :   Average magnitude of time domain angular velocity Jerk signal
+    44  timeBodyGyroJerkMagStd  :   Standard deviation of magnitude of time domain angular velocity Jerk signal
+    45   timeBodyGyroJerkMeanX  :   Average time domain angular velocity Jerk signal (X axis)
+    46   timeBodyGyroJerkMeanY  :   Average time domain angular velocity Jerk signal (Y axis)
+    47   timeBodyGyroJerkMeanZ  :   Average time domain angular velocity Jerk signal (Z axis)
+    48    timeBodyGyroJerkStdX  :   Standard deviation of time domain angular velocity Jerk signal (X axis)
+    49    timeBodyGyroJerkStdY  :   Standard deviation of time domain angular velocity Jerk signal (Y axis)
+    50    timeBodyGyroJerkStdZ  :   Standard deviation of time domain angular velocity Jerk signal (Z axis)
+    51     timeBodyGyroMagMean  :   Average magnitude of time domain angular velocity signal
+    52      timeBodyGyroMagStd  :   Standard deviation of magnitude of time domain angular velocity signal
+    53       timeBodyGyroMeanX  :   Average time domain  angular velocity signal (X axis)
+    54       timeBodyGyroMeanY  :   Average time domain  angular velocity signal (Y axis)
+    55       timeBodyGyroMeanZ  :   Average time domain  angular velocity signal (Z axis)
+    56        timeBodyGyroStdX  :   Standard deviation of time domain  angular velocity signal (X axis)
+    57        timeBodyGyroStdY  :   Standard deviation of time domain  angular velocity signal (Y axis)
+    58        timeBodyGyroStdZ  :   Standard deviation of time domain  angular velocity signal (Z axis)
+    59   timeGravityAccMagMean  :   Average magnitude of time domain gravity acceleration signal
+    60    timeGravityAccMagStd  :   Standard deviation of magnitude of time domain gravity acceleration signal
+    61     timeGravityAccMeanX  :   Average time domain gravity acceleration signal (X axis)
+    62     timeGravityAccMeanY  :   Average time domain gravity acceleration signal (Y axis)
+    63     timeGravityAccMeanZ  :   Average time domain gravity acceleration signal (Z axis)
+    64      timeGravityAccStdX  :   Standard deviation of time domain gravity acceleration signal (X axis)
+    65      timeGravityAccStdY  :   Standard deviation of time domain gravity acceleration signal (Y axis)
+    66      timeGravityAccStdZ  :   Standard deviation of time domain gravity acceleration signal (Z axis)
 
 - 1-26: frequency domain measurements;
 - 27-66: time domain measurements;
@@ -92,7 +92,7 @@ The continuous variables:
 The data used to create the tidy dataset
 ----------------------------------------
 
-To create the **bodyMovement.csv** data set I used the row data obtained from the Human Activity Recognition Using Smartphones Dataset (Version 1.0): 
+To create the tidy **bodyMovement.csv** data set I used the row data obtained from the Human Activity Recognition Using Smartphones Dataset (Version 1.0): 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -174,7 +174,7 @@ The references for `mean()` and `std()` were taken from the `features_info.txt`,
 
 **Step 5. Appropriately labeling the data set with descriptive variable names.**
 
-A "descrptive variable name" implies using a name that describes the meaning of the variable intuitively, for example, instead of "t" and "f" use "time" and "freq" (or, "frequency"). 
+A "descrptive variable name" implies using a name that describes the meaning of the variable intuitively, for example, instead of `t` and `f` use `time` and `freq` (or, `frequency`). 
 
 - Check if the feature subset has appropriate labeling. Check for errors (visually and/or programmatically) and edit it. 
 
