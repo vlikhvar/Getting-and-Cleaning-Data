@@ -10,3 +10,16 @@ The `bodyMovement.R` code does the following:
 The code should have a file run_analysis.R in the main directory (`UCI HAR Dataset`) that can be run as long as the Samsung data is in your working directory.
 
 general description and importantly the starting conditions
+
+Load R libraries
+library(dplyr)
+packageVersion("dplyr")
+[1] ‘0.3.0.2’
+
+library(plyr)
+packageVersion("plyr")
+[1] ‘1.8.1’
+
+library(tidyr)
+packageVersion("tidyr")
+[1] ‘0.2.0’
